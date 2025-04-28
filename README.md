@@ -95,4 +95,4 @@ An Android application that allows users to log in, view rare car sightings, and
 
 ---
 
-Made with ❤️ by Mehmet Karyon.
+Made by Kaan Akboğa.
