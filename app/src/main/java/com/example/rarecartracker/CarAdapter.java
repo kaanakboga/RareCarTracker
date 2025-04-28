@@ -1,4 +1,4 @@
-package com.example.myeventmate;
+package com.example.rarecartracker;
 
 import android.view.LayoutInflater;
 import android.view.View;

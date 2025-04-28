@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.myeventmate">
+    package="com.example.rarecartracker">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -14,29 +14,29 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyEventMate"
+        android:theme="@style/Theme.rarecartracker"
         tools:targetApi="31">
 
-        <!-- Doğru API KEY bağlantısı -->
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".CarMapActivity"
+            android:name="com.example.rarecartracker.CarMapActivity"
             android:exported="false"
             android:label="@string/title_activity_car_map" />
         <activity
-            android:name=".CarCreateActivity"
+            android:name="com.example.rarecartracker.CarCreateActivity"
             android:exported="false" />
         <activity
-            android:name=".ListActivity"
+            android:name="com.example.rarecartracker.ListActivity"
             android:exported="false" />
         <activity
-            android:name=".HomeActivity"
+            android:name="com.example.rarecartracker.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.example.rarecartracker.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,7 +44,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.rarecartracker.MainActivity"
             android:exported="false" />
     </application>
 

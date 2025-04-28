@@ -1,4 +1,4 @@
-package com.example.myeventmate;
+package com.example.rarecartracker;
 
 public class Car {
     private String brand;

@@ -1,8 +1,7 @@
-package com.example.myeventmate;
+package com.example.rarecartracker;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
-import android.location.Location;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;

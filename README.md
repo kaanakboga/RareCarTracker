@@ -9,11 +9,15 @@ An Android application that allows users to log in, view rare car sightings, and
 
 | Login Screen | Home Screen |
 |:-------------:|:-----------:|
-| ![Login](screenshots/login.png) | ![Home](screenshots/home.png) |
+| ![Login](screenshots/login.png) | ![Home](screenshots/home0.png) |
 
 | Car List | Map View |
 |:--------:|:--------:|
 | ![List](screenshots/list.png) | ![Map](screenshots/map.png) |
+
+|              Car List              |
+|:----------------------------------:|
+| ![Add Car](screenshots/addcar.png)|
 
 ---
 
@@ -23,6 +27,7 @@ An Android application that allows users to log in, view rare car sightings, and
 - 🏠 **Home Screen** with user greeting and navigation
 - 📃 **List of Rare Cars** with brand, model, and location
 - 🗺️ **Map View** displaying car locations on Google Maps
+- ➕ User Car Submission – Users can now add their own rare cars by providing brand, model, and location information
 - 🔒 **Secure Firebase Setup** (API keys and sensitive data protected)
 
 ---
@@ -45,7 +50,7 @@ An Android application that allows users to log in, view rare car sightings, and
 /app
     /src
         /main
-            /java/com/example/myeventmate/
+            /java/com/example/rarecartracker/
                 - LoginActivity.java
                 - HomeActivity.java
                 - ListActivity.java
@@ -88,11 +93,17 @@ An Android application that allows users to log in, view rare car sightings, and
 
 ## 📈 Future Improvements
 
-- User profile management
 - Car details page with images
 - Push notifications for new car sightings
 - Filtering cars by brand, model, or distance
 
 ---
 
-Made with ❤️ by Mehmet Karyon.
+## 🆕 Update Log
+
+📌 Version 1.1 – June 2025
+- Users can now add their own rare cars by providing brand, model, and location information.
+- Submitted cars are saved to Firestore and immediately displayed in both the Car List and Map View.
+- This marks the app’s first major feature update, enhancing user interaction and expanding the community-driven dataset.
+
+Made by Kaan Akboğa.

@@ -1,4 +1,4 @@
-package com.example.myeventmate;
+package com.example.rarecartracker;
 
 import android.content.Intent;
 import android.os.Bundle;

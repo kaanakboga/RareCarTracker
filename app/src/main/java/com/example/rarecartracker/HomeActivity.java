@@ -1,4 +1,4 @@
-package com.example.myeventmate;
+package com.example.rarecartracker;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -21,27 +21,22 @@ public class HomeActivity extends AppCompatActivity {
         welcomeText = findViewById(R.id.welcomeText);
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
 
-
         String userEmail = getIntent().getStringExtra("userEmail");
-
-
         welcomeText.setText("Welcome, " + userEmail + "!");
-
 
         bottomNavigationView.setOnItemSelectedListener(item -> {
             int id = item.getItemId();
             if (id == R.id.nav_list) {
-                Intent intent = new Intent(HomeActivity.this, ListActivity.class);
-                startActivity(intent);
+                startActivity(new Intent(HomeActivity.this, ListActivity.class));
+                return true;
+            } else if (id == R.id.nav_add_car) {
+                startActivity(new Intent(HomeActivity.this, CarCreateActivity.class));
                 return true;
             } else if (id == R.id.nav_map) {
-                Intent intent = new Intent(HomeActivity.this, CarMapActivity.class);
-                startActivity(intent);
+                startActivity(new Intent(HomeActivity.this, CarMapActivity.class));
                 return true;
             }
             return false;
         });
-
-
     }
 }

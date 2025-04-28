@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.myeventmate'
+    namespace 'com.example.rarecartracker'
     compileSdk 35
 
     defaultConfig {
-        applicationId "com.example.myeventmate"
+        applicationId "com.example.rarecartracker"
         minSdk 23
         targetSdk 35
         versionCode 1
