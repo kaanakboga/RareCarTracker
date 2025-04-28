@@ -1,0 +1,17 @@
+# Android/IntelliJ related files
+.gradle/
+.idea/
+*.iml
+build/
+captures/
+local.properties
+
+# Firebase sensitive file
+google-services.json
+
+# macOS system files
+.DS_Store
+
+# External Build
+.externalNativeBuild/
+
