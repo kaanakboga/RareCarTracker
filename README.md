@@ -15,9 +15,9 @@ An Android application that allows users to log in, view rare car sightings, and
 |:--------:|:--------:|
 | ![List](screenshots/list.png) | ![Map](screenshots/map.png) |
 
-|              Car List              |
-|:----------------------------------:|
-| ![Add Car](screenshots/addcar.png)|
+|              Car List               |
+|:-----------------------------------:|
+| ![Add Car](screenshots/addcar.png)  |
 
 ---
 
@@ -56,6 +56,9 @@ An Android application that allows users to log in, view rare car sightings, and
                 - ListActivity.java
                 - CarAdapter.java
                 - CarMapActivity.java
+                - Car.java
+                - MainActivity.java
+                - CarCreateActivity.java
             /res
                 /layout
                     - activity_login.xml
@@ -63,6 +66,8 @@ An Android application that allows users to log in, view rare car sightings, and
                     - activity_list.xml
                     - item_car.xml
                     - activity_car_map.xml
+                    - activity_main.xml
+                    - activity_car_create.xml
 ```
 
 ---
